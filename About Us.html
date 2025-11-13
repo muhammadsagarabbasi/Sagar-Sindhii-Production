@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Landing Page</title>
+  <link rel="stylesheet" href="about.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="logo">Sagar Sindhii</div>
+    <nav class="navbar">
+      <a href="index.html">Home</a>
+      <a href="Songs.html">Songs</a>
+      <a href="biography.html">Biography</a>
+      <a href="About Us.html">About</a>
+    </nav>
+    <button class="menu-btn" onclick="document.querySelector('.navbar').classList.toggle('active')">☰</button>
+  </header>
+
+  <section class="about" id="about">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>
+        We are passionate about bringing music to life. Our platform is designed
+        to help musicians share and promote their work with the world. Whether
+        you're an artist, a band, or simply a music lover, this is your place to
+        connect and grow.
+      </p>
+      <div class="about-grid">
+        <div class="about-item">
+          <h3>🎶 Our Mission</h3>
+          <p>
+            To deliver every Sindhi singer’s songs (old and new) to the world in a digital video format — so that Sindhi
+            culture, language, and music remain alive and new generations can connect with it.
+          </p>
+        </div>
+        <div class="about-item">
+          <h3>🌍 Our Vision</h3>
+          <p>
+            To build a global digital platform that celebrates every Sindhi singer — old and new — and keeps the rich
+            heritage of Sindhi music alive. We aim to connect generations through melodies that carry the spirit,
+            culture, and language of Sindh, so that every beat of our music echoes across the world with pride and
+            unity.
+          </p>
+        </div>
+        <div class="about-item">
+          <h3>🤝 Join Us</h3>
+          <p>
+            Be a part of our mission! 🎶
+            If you love Sindhi music, join us in spreading the beauty of our culture and melodies across the world.
+            Every like, share, and comment helps keep Sindhi music alive for future generations. 💫
+            <br>
+            👉 Follow us, watch our videos, and let the sound of Sindh echo in every corner of the world!
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-container">
+
+      <div class="footer-about">
+        <h2 class="footer-title">Sagar Sindhii</h2>
+        <p class="footer-text">
+          Discover the soulful world of Sindhi music — from timeless classics to modern hits.
+          Let the melodies of Sindh touch your heart.
+        </p>
+
+        <div class="social-icons">
+          <a href="https://www.youtube.com/@manzoorsakhiranisongs" target="_blank" class="youtube" title="YouTube">
+            <i class="fa-brands fa-youtube"></i>
+          </a>
+          <a href="https://www.tiktok.com/@hanifabbasiofficial" target="_blank" class="tiktok" title="TikTok">
+            <i class="fa-brands fa-tiktok"></i>
+          </a>
+          <a href="https://www.facebook.com/finah549" target="_blank" class="facebook" title="Facebook">
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-contact">
+        <h3>Contact Us</h3>
+        <form id="contact-form">
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <textarea name="message" placeholder="Your Message" rows="3" required></textarea>
+          <button type="submit" id="submit-bt">Send Message</button>
+        </form>
+      </div>
+    </div>
+    <p class="footer-copy">© 2025 Sagar Sindhii | All Rights Reserved</p>
+    <div id="popup" class="popup">
+      <div class="popup-content">
+        <p id="popup-message">Sending...</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const form = document.getElementById('contact-form');
+    const popup = document.getElementById('popup');
+    const popupMessage = document.getElementById('popup-message');
+
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+
+      popup.style.display = 'flex';
+      popupMessage.textContent = 'Sending...';
+
+      setTimeout(() => {
+        popupMessage.textContent = 'Message sent successfully!';
+        setTimeout(() => {
+          popup.style.display = 'none';
+          form.reset();
+        }, 3000);
+      }, 2000);
+    });
+  </script>
+  <script src="script.js"></script>
+
+  </html>

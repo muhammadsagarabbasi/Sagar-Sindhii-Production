@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Songs Page</title>
+  <link rel="stylesheet" href="songs.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="logo">Sagar Sindhii</div>
+    <nav class="navbar">
+      <a href="index.html">Home</a>
+      <a href="Songs.html">Songs</a>
+      <a href="biography.html">Biography</a>
+      <a href="About Us.html">About</a>
+    </nav>
+    <button class="menu-btn" onclick="document.querySelector('.navbar').classList.toggle('active')">☰</button>
+  </header>
+
+  <section class="hero">
+    <h2>Top Sindhi Songs Collection</h2>
+    <p>Enjoy the best Sindhi songs from your favorite artists in one place.</p>
+
+    <div class="search-container">
+      <input type="text" id="searchInput" placeholder="Search song name...">
+      <button id="searchBtn">Search</button>
+    </div>
+  </section>
+
+  <section class="songs-section" id="songs">
+    <h3>Treasure of Music</h3>
+    <div class="song-grid">
+
+      <div class="song-card" data-video-id="YFVPsrmLb_M">
+        <img alt="YouTube Thumbnail">
+        <div class="song-info">
+          <span class="song-number">Chango Bhitai Aaon Halan Tho</span>
+          <h4 class="song-title">Sadiq Faqeer</h4>
+        </div>
+        <a href="https://www.youtube.com/watch?v=YFVPsrmLb_M" target="_blank" class="btn-primary">Play</a>
+      </div>
+
+      <div class="song-card" data-video-id="Sia14w4I4BE">
+        <img alt="YouTube Thumbnail">
+        <div class="song-info">
+          <span class="song-number">Masha Allah Mehfil Mein Suhino Ayo</span>
+          <h4 class="song-title">Manzoor Sakhirani</h4>
+        </div>
+        <a href="https://www.youtube.com/watch?v=Sia14w4I4BE" target="_blank" class="btn-primary">Play</a>
+      </div>
+
+      <div class="song-card" data-video-id="CYNU1kyrlhg">
+        <img alt="YouTube Thumbnail">
+        <div class="song-info">
+          <span class="song-number">Tokhe Wisaran Laye Jani</span>
+          <h4 class="song-title">Fozia Soomro</h4>
+        </div>
+        <a href="https://www.youtube.com/watch?v=CYNU1kyrlhg" target="_blank" class="btn-primary">Play</a>
+      </div>
+
+      <div class="song-card" data-video-id="UsQ37emOsn8">
+        <img alt="YouTube Thumbnail">
+        <div class="song-info">
+          <span class="song-number">Dil Lagi Kehsan Kaje</span>
+          <h4 class="song-title">Mumtaz Lashari</h4>
+        </div>
+        <a href="https://www.youtube.com/watch?v=UsQ37emOsn8" target="_blank" class="btn-primary">Play</a>
+      </div>
+
+      <div class="song-card" data-video-id="f4hXanFfgLg">
+        <img alt="YouTube Thumbnail">
+        <div class="song-info">
+          <span class="song-number">Dil Thi Chawe Maan Tadahin Achan Tho</span>
+          <h4 class="song-title">Ghulam Shabeer Samo</h4>
+        </div>
+        <a href="https://www.youtube.com/watch?v=f4hXanFfgLg" target="_blank" class="btn-primary">Play</a>
+      </div>
+
+      <div class="song-card" data-video-id="-fby4pkjXmc">
+        <img alt="YouTube Thumbnail">
+        <div class="song-info">
+          <span class="song-number">TOTE KEHRO KAYAN BHARWSO</span>
+          <h4 class="song-title">Shaman Ali Mirali</h4>
+        </div>
+        <a href="https://www.youtube.com/watch?v=-fby4pkjXmc" target="_blank" class="btn-primary">Play</a>
+      </div>
+
+      <div class="song-card" data-video-id="xn_Y_aM0o-0">
+        <img alt="YouTube Thumbnail">
+        <div class="song-info">
+          <span class="song-number">Neran ja kakar barsya hondye</span>
+          <h4 class="song-title">Sarmad Sindhi</h4>
+        </div>
+        <a href="https://www.youtube.com/watch?v=xn_Y_aM0o-0" target="_blank" class="btn-primary">Play</a>
+      </div>
+
+      <div class="song-card" data-video-id="fTzPXrFjOfY">
+        <img alt="YouTube Thumbnail">
+        <div class="song-info">
+          <span class="song-number">Dil Mein Ahen Ketrion He Galihion</span>
+          <h4 class="song-title">Sadiq Faqeer</h4>
+        </div>
+        <a href="https://www.youtube.com/watch?v=fTzPXrFjOfY" target="_blank" class="btn-primary">Play</a>
+      </div>
+
+      <div class="song-card" data-video-id="KdEnXJ_Y2x8">
+        <img alt="YouTube Thumbnail">
+        <div class="song-info">
+          <span class="song-number">Jeke Monsa kaya Waida</span>
+          <h4 class="song-title">Master Manzoor</h4>
+        </div>
+        <a href="https://www.youtube.com/watch?v=KdEnXJ_Y2x8&list=RDKdEnXJ_Y2x8&start_radio=1" target="_blank"
+          class="btn-primary">Play</a>
+      </div>
+
+      <div class="song-card" data-video-id="4s8TdMww1Ms">
+        <img alt="YouTube Thumbnail">
+        <div class="song-info">
+          <span class="song-number">SUHNA PENHJI AKHYIN KHE JHAL </span>
+          <h4 class="song-title">Sarmad Sindhi</h4>
+        </div>
+        <a href="https://www.youtube.com/watch?v=4s8TdMww1Ms" target="_blank" class="btn-primary">Play</a>
+      </div>
+
+      <div class="song-card" data-video-id="5yjkEgCj3Hk">
+        <img alt="YouTube Thumbnail">
+        <div class="song-info">
+          <span class="song-number">Dittham Azmai</span>
+          <h4 class="song-title">Munawar Molai </h4>
+        </div>
+        <a href="https://www.youtube.com/watch?v=5yjkEgCj3Hk" target="_blank" class="btn-primary">Play</a>
+      </div>
+
+      <div class="song-card" data-video-id="UGGYI2ARr54">
+        <img alt="YouTube Thumbnail">
+        <div class="song-info">
+          <span class="song-number">MONKHE AA QABOOL TUNHJI HAR HIK SAZA</span>
+          <h4 class="song-title">Shaman Ali Mirali</h4>
+        </div>
+        <a href="https://www.youtube.com/watch?v=UGGYI2ARr54" target="_blank" class="btn-primary">Play</a>
+      </div>
+
+      <div class="song-card" data-video-id="mErRGrwqWu8">
+        <img alt="YouTube Thumbnail">
+        <div class="song-info">
+          <span class="song-number">Tonhji Dil Monsa Monhji Dil Tosan</span>
+          <h4 class="song-title">Sarmad Sindhi</h4>
+        </div>
+        <a href="https://www.youtube.com/watch?v=mErRGrwqWu8" target="_blank" class="btn-primary">Play</a>
+      </div>
+
+      <div class="song-card" data-video-id="8N416wsMvMA">
+        <img alt="YouTube Thumbnail">
+        <div class="song-info">
+          <span class="song-number">Ho Pare Aa Pare Aa</span>
+          <h4 class="song-title">Sadiq Faqeer</h4>
+        </div>
+        <a href="https://www.youtube.com/watch?v=8N416wsMvMA" target="_blank" class="btn-primary">Play</a>
+      </div>
+
+      <div class="song-card" data-video-id="L5bDz_1J9Ac">
+        <img alt="YouTube Thumbnail">
+        <div class="song-info">
+          <span class="song-number">Wichoro Yaar Jaani Jo</span>
+          <h4 class="song-title">Mumtaz Lashari</h4>
+        </div>
+        <a href="https://www.youtube.com/watch?v=L5bDz_1J9Ac" target="_blank" class="btn-primary">Play</a>
+      </div>
+
+      <div class="song-card" data-video-id="qQxJVyvT4p8">
+        <img alt="YouTube Thumbnail">
+        <div class="song-info">
+          <span class="song-number">Bas Tuhinji Khushi</span>
+          <h4 class="song-title">Fozia Soomro</h4>
+        </div>
+        <a href="https://www.youtube.com/watch?v=qQxJVyvT4p8" target="_blank" class="btn-primary">Play</a>
+      </div>
+
+      <div class="song-card" data-video-id="nNSM46JPywc">
+        <img alt="YouTube Thumbnail">
+        <div class="song-info">
+          <span class="song-number">Ahyan Ddhadho Pareshan Ahyan</span>
+          <h4 class="song-title">Manzoor Sakhirani</h4>
+        </div>
+        <a href="https://www.youtube.com/watch?v=nNSM46JPywc" target="_blank" class="btn-primary">Play</a>
+      </div>
+
+      <div class="song-card" data-video-id="HRsJ-ExiItQ">
+        <img alt="YouTube Thumbnail">
+        <div class="song-info">
+          <span class="song-number">Tutti Dil Duniya Main</span>
+          <h4 class="song-title">Fozia Soomro</h4>
+        </div>
+        <a href="https://www.youtube.com/watch?v=HRsJ-ExiItQ" target="_blank" class="btn-primary">Play</a>
+      </div>
+
+      <div class="song-card" data-video-id="DKqQjyrUCGo">
+        <img alt="YouTube Thumbnail">
+        <div class="song-info">
+          <span class="song-number">Sham Jo He Pahar Naon Asan Je Kayo Kujh Ta Inda</span>
+          <h4 class="song-title">Manzoor Sakhirani</h4>
+        </div>
+        <a href="https://www.youtube.com/watch?v=DKqQjyrUCGo" target="_blank" class="btn-primary">Play</a>
+      </div>
+
+      <div class="song-card" data-video-id="2gQ1JKni6xo">
+        <img alt="YouTube Thumbnail">
+        <div class="song-info">
+          <span class="song-number">Kilyo Galhayo Baksh</span>
+          <h4 class="song-title">Master Manzoor</h4>
+        </div>
+        <a href="https://www.youtube.com/watch?v=2gQ1JKni6xo" target="_blank" class="btn-primary">Play</a>
+      </div>
+
+      <div class="song-card" data-video-id="zMoi2H94V7k">
+        <img alt="YouTube Thumbnail">
+        <div class="song-info">
+          <span class="song-number">Maran Ta Kehnji Laye Maran</span>
+          <h4 class="song-title">Munawar Molai</h4>
+        </div>
+        <a href="https://www.youtube.com/watch?v=zMoi2H94V7k" target="_blank" class="btn-primary">Play</a>
+      </div>
+
+      <div class="song-card" data-video-id="i_KhZcksxpo">
+        <img alt="YouTube Thumbnail">
+        <div class="song-info">
+          <span class="song-number">Tuhnji Wai Kha Po Sajan Kari Rat Roare Thi</span>
+          <h4 class="song-title">Master Manzoor</h4>
+        </div>
+        <a href="https://www.youtube.com/watch?v=i_KhZcksxpo" target="_blank" class="btn-primary">Play</a>
+      </div>
+
+      <div class="song-card" data-video-id="8u1bcYq0seA">
+        <img alt="YouTube Thumbnail">
+        <div class="song-info">
+          <span class="song-number">Keyan Pojo Nagan San</span>
+          <h4 class="song-title">Munawar Molai</h4>
+        </div>
+        <a href="https://www.youtube.com/watch?v=8u1bcYq0seA" target="_blank" class="btn-primary">Play</a>
+      </div>
+
+      <div class="song-card" data-video-id="eZUpm0P6zlI">
+        <img alt="YouTube Thumbnail">
+        <div class="song-info">
+          <span class="song-number">Kathe Tho Moonkhan Uho Manzr Wisre</span>
+          <h4 class="song-title">GHULAM SHABBIR SAMO</h4>
+        </div>
+        <a href="https://www.youtube.com/watch?v=eZUpm0P6zlI" target="_blank" class="btn-primary">Play</a>
+      </div>
+
+      <div class="song-card" data-video-id="IKKSL48rzvM">
+        <img alt="YouTube Thumbnail">
+        <div class="song-info">
+          <span class="song-number">Munhinja Mola Sabhini San Panhinja DIlber Mila</span>
+          <h4 class="song-title">GHULAM SHABBIR SAMO</h4>
+        </div>
+        <a href="https://www.youtube.com/watch?v=IKKSL48rzvM" target="_blank" class="btn-primary">Play</a>
+      </div>
+
+      <div class="song-card" data-video-id="AH8ex5R_uYM">
+        <img alt="YouTube Thumbnail">
+        <div class="song-info">
+          <span class="song-number">Tho Moklayan Alwida</span>
+          <h4 class="song-title">Sadiq Faqeer</h4>
+        </div>
+        <a href="https://www.youtube.com/watch?v=AH8ex5R_uYM" target="_blank" class="btn-primary">Play</a>
+      </div>
+
+      <div class="song-card" data-video-id="CqyCwwAPqQQ">
+        <img alt="YouTube Thumbnail">
+        <div class="song-info">
+          <span class="song-number">JANWANI NA RAHNDI</span>
+          <h4 class="song-title">Sadiq Faqeer</h4>
+        </div>
+        <a href="https://www.youtube.com/watch?v=CqyCwwAPqQQ" target="_blank" class="btn-primary">Play</a>
+      </div>
+
+      <div class="song-card" data-video-id="OfieVEEFgHk">
+        <img alt="YouTube Thumbnail">
+        <div class="song-info">
+          <span class="song-number">Wari Milbo</span>
+          <h4 class="song-title">Mumtaz Lashari</h4>
+        </div>
+        <a href="https://www.youtube.com/watch?v=OfieVEEFgHk" target="_blank" class="btn-primary">Play</a>
+      </div>
+
+      <div class="song-card" data-video-id="4y7rFCeTdUA">
+        <img alt="YouTube Thumbnail">
+        <div class="song-info">
+          <span class="song-number">Sir Lagey Sohney Sajan Saan</span>
+          <h4 class="song-title">Mumtaz Lashari</h4>
+        </div>
+        <a href="https://www.youtube.com/watch?v=4y7rFCeTdUA" target="_blank" class="btn-primary">Play</a>
+      </div>
+
+      <div class="song-card" data-video-id="bjxopc5doxY">
+        <img alt="YouTube Thumbnail">
+        <div class="song-info">
+          <span class="song-number">Asan Jehro Biyo Manrhon Na Milandai</span>
+          <h4 class="song-title">Fozia Soomro</h4>
+        </div>
+        <a href="https://www.youtube.com/watch?v=bjxopc5doxY" target="_blank" class="btn-primary">Play</a>
+      </div>
+
+      <div class="song-card" data-video-id="Jb5-wbbUPxI">
+        <img alt="YouTube Thumbnail">
+        <div class="song-info">
+          <span class="song-number">Tokhe Aj Rubaru Disan Thi</span>
+          <h4 class="song-title">Fozia Soomro</h4>
+        </div>
+        <a href="https://www.youtube.com/watch?v=Jb5-wbbUPxI" target="_blank" class="btn-primary">Play</a>
+      </div>
+
+      <div class="song-card" data-video-id="h3dN9idbHyw">
+        <img alt="YouTube Thumbnail">
+        <div class="song-info">
+          <span class="song-number">Hukum Ta Kar Lab Chore Suhina</span>
+          <h4 class="song-title">Manzoor Sakhirani</h4>
+        </div>
+        <a href="https://www.youtube.com/watch?v=h3dN9idbHyw" target="_blank" class="btn-primary">Play</a>
+      </div>
+
+      <div class="song-card" data-video-id="1_IzzkKY_KA">
+        <img alt="YouTube Thumbnail">
+        <div class="song-info">
+          <span class="song-number">Moonkhe Qasam Aa Suhni Sindh Jo</span>
+          <h4 class="song-title">Manzoor Sakhirani</h4>
+        </div>
+        <a href="https://www.youtube.com/watch?v=1_IzzkKY_KA" target="_blank" class="btn-primary">Play</a>
+      </div>
+
+      <div class="song-card" data-video-id="kkcnfFPM2Ys">
+        <img alt="YouTube Thumbnail">
+        <div class="song-info">
+          <span class="song-number">Jadehn Hin Dunya Man Guzare Weenda Seen</span>
+          <h4 class="song-title">Master Manzoor</h4>
+        </div>
+        <a href="https://www.youtube.com/watch?v=kkcnfFPM2Ys" target="_blank" class="btn-primary">Play</a>
+      </div>
+
+      <div class="song-card" data-video-id="vR5_u5aZH8Q">
+        <img alt="YouTube Thumbnail">
+        <div class="song-info">
+          <span class="song-number">SIK LAHI WATH TOON</span>
+          <h4 class="song-title">Master Manzoor</h4>
+        </div>
+        <a href="https://www.youtube.com/watch?v=vR5_u5aZH8Q" target="_blank" class="btn-primary">Play</a>
+      </div>
+
+      <div class="song-card" data-video-id="Mvl7UQKBHek">
+        <img alt="YouTube Thumbnail">
+        <div class="song-info">
+          <span class="song-number">Mola Dil Ahri Dini Aa</span>
+          <h4 class="song-title">Munawar Molai</h4>
+        </div>
+        <a href="https://www.youtube.com/watch?v=Mvl7UQKBHek" target="_blank" class="btn-primary">Play</a>
+      </div>
+
+      <div class="song-card" data-video-id="dtGFkl0x9z8">
+        <img alt="YouTube Thumbnail">
+        <div class="song-info">
+          <span class="song-number">Rat Dil San Wirhiyo Han</span>
+          <h4 class="song-title">Munawar Molai</h4>
+        </div>
+        <a href="https://www.youtube.com/watch?v=dtGFkl0x9z8" target="_blank" class="btn-primary">Play</a>
+      </div>
+
+      <div class="song-card" data-video-id="Olax7Lr_uu0">
+        <img alt="YouTube Thumbnail">
+        <div class="song-info">
+          <span class="song-number">Tunhinje Galhyun Te Moonkhe Aitbar Konhe Ko</span>
+          <h4 class="song-title">GHULAM SHABBIR SAMO</h4>
+        </div>
+        <a href="https://www.youtube.com/watch?v=Olax7Lr_uu0" target="_blank" class="btn-primary">Play</a>
+      </div>
+
+      <div class="song-card" data-video-id="f0WPGpqW5nk">
+        <img alt="YouTube Thumbnail">
+        <div class="song-info">
+          <span class="song-number">Moonkhe Cholo Subaye De Pyar San</span>
+          <h4 class="song-title">GHULAM SHABBIR SAMO</h4>
+        </div>
+        <a href="https://www.youtube.com/watch?v=f0WPGpqW5nk" target="_blank" class="btn-primary">Play</a>
+      </div>
+
+      <div class="song-card" data-video-id="vgyUPxWOSsM">
+        <img alt="YouTube Thumbnail">
+        <div class="song-info">
+          <span class="song-number">Hal Ta Keh Mehkade Me Halon</span>
+          <h4 class="song-title">Rajab Faqeer</h4>
+        </div>
+        <a href="https://www.youtube.com/watch?v=vgyUPxWOSsM" target="_blank" class="btn-primary">Play</a>
+      </div>
+
+      <div class="song-card" data-video-id="eUs41647R6g">
+        <img alt="YouTube Thumbnail">
+        <div class="song-info">
+          <span class="song-number">Azaban Ma Tana rahya Hi rahya he</span>
+          <h4 class="song-title">Rajab Faqeer</h4>
+        </div>
+        <a href="https://www.youtube.com/watch?v=eUs41647R6g" target="_blank" class="btn-primary">Play</a>
+      </div>
+
+      <div class="song-card" data-video-id="a41Fis7yX5A">
+        <img alt="YouTube Thumbnail">
+        <div class="song-info">
+          <span class="song-number">Ha Man Tuhinje Bina Kujh Ba Ta Nahiyan</span>
+          <h4 class="song-title">Rajab Faqeer</h4>
+        </div>
+        <a href="https://www.youtube.com/watch?v=a41Fis7yX5A" target="_blank" class="btn-primary">Play</a>
+      </div>
+
+      <div class="song-card" data-video-id="qhTDBfbBKFY">
+        <img alt="YouTube Thumbnail">
+        <div class="song-info">
+          <span class="song-number">Mokhe Wisre Ee Nathi Tuhunje Ruksatia Je Rasam</span>
+          <h4 class="song-title">Rajab Faqeer</h4>
+        </div>
+        <a href="https://www.youtube.com/watch?v=qhTDBfbBKFY" target="_blank" class="btn-primary">Play</a>
+      </div>
+
+      <div class="song-card" data-video-id="IzBDPhMBCng">
+        <img alt="YouTube Thumbnail">
+        <div class="song-info">
+          <span class="song-number">Assan Dil Khapai Chadi Aa</span>
+          <h4 class="song-title">Rajab Faqeer</h4>
+        </div>
+        <a href="https://www.youtube.com/watch?v=IzBDPhMBCng" target="_blank" class="btn-primary">Play</a>
+      </div>
+
+      <div class="song-card" data-video-id="Pk71U0R_dQQ">
+        <img alt="YouTube Thumbnail">
+        <div class="song-info">
+          <span class="song-number">Aween Hikri Mehfil Me Wetha Huya</span>
+          <h4 class="song-title">Rajab Faqeer</h4>
+        </div>
+        <a href="https://www.youtube.com/watch?v=Pk71U0R_dQQ" target="_blank" class="btn-primary">Play</a>
+      </div>
+
+      <div class="song-card" data-video-id="Myq04W9aT6g">
+        <img alt="YouTube Thumbnail">
+        <div class="song-info">
+          <span class="song-number">Dunya Me Asan Edo be kehn khe</span>
+          <h4 class="song-title">Rajab Faqeer</h4>
+        </div>
+        <a href="https://www.youtube.com/watch?v=Myq04W9aT6g" target="_blank" class="btn-primary">Play</a>
+      </div>
+
+      <div class="song-card" data-video-id="qf982pXv4R0">
+        <img alt="YouTube Thumbnail">
+        <div class="song-info">
+          <span class="song-number">Muhenji Dil Khe Muhabat Je Zarorat Aa</span>
+          <h4 class="song-title">Rajab Faqeer</h4>
+        </div>
+        <a href="https://www.youtube.com/watch?v=qf982pXv4R0" target="_blank" class="btn-primary">Play</a>
+      </div>
+
+      <div class="song-card" data-video-id="K9H7C8M9lb8">
+        <img alt="YouTube Thumbnail">
+        <div class="song-info">
+          <span class="song-number">Chandoki Raat mein</span>
+          <h4 class="song-title">Rajab Faqeer</h4>
+        </div>
+        <a href="https://www.youtube.com/watch?v=K9H7C8M9lb8" target="_blank" class="btn-primary">Play</a>
+      </div>
+
+      <div class="song-card" data-video-id="Pk0TgkW6Hbc">
+        <img alt="YouTube Thumbnail">
+        <div class="song-info">
+          <span class="song-number">Dunia me asan aedo</span>
+          <h4 class="song-title">Rajab Faqeer</h4>
+        </div>
+        <a href="https://www.youtube.com/watch?v=Pk0TgkW6Hbc" target="_blank" class="btn-primary">Play</a>
+      </div>
+
+      <div class="song-card" data-video-id="oWijwSZ94l4">
+        <img alt="YouTube Thumbnail">
+        <div class="song-info">
+          <span class="song-number">Je Hik Tunjo Waido Wafa Thi</span>
+          <h4 class="song-title">Rajab Faqeer</h4>
+        </div>
+        <a href="https://www.youtube.com/watch?v=oWijwSZ94l4" target="_blank" class="btn-primary">Play</a>
+      </div>
+
+      <div class="song-card" data-video-id="2LEQ_QQINpM">
+        <img alt="YouTube Thumbnail">
+        <div class="song-info">
+          <span class="song-number">Hikro Hi Dard Aero</span>
+          <h4 class="song-title">Ahmed Mughal</h4>
+        </div>
+        <a href="https://www.youtube.com/watch?v=2LEQ_QQINpM" target="_blank" class="btn-primary">Play</a>
+      </div>
+
+      <div class="song-card" data-video-id="VuYpoSDirhA">
+        <img alt="YouTube Thumbnail">
+        <div class="song-info">
+          <span class="song-number">Shayad Man Sooran Ma</span>
+          <h4 class="song-title">Ahmed Mughal</h4>
+        </div>
+        <a href="https://www.youtube.com/watch?v=VuYpoSDirhA" target="_blank" class="btn-primary">Play</a>
+      </div>
+
+      <div class="song-card" data-video-id="gcxpJY1kulk">
+        <img alt="YouTube Thumbnail">
+        <div class="song-info">
+          <span class="song-number">Aey Dil Hite Pehinjo Kaer Aa</span>
+          <h4 class="song-title">Ahmed Mughal</h4>
+        </div>
+        <a href="https://www.youtube.com/watch?v=gcxpJY1kulk" target="_blank" class="btn-primary">Play</a>
+      </div>
+
+      <div class="song-card" data-video-id="E9ELCItIKsM">
+        <img alt="YouTube Thumbnail">
+        <div class="song-info">
+          <span class="song-number">Hik Dafo Sadma Milya</span>
+          <h4 class="song-title">Ahmed Mughal</h4>
+        </div>
+        <a href="https://www.youtube.com/watch?v=E9ELCItIKsM" target="_blank" class="btn-primary">Play</a>
+      </div>
+
+      <div class="song-card" data-video-id="bMmNDnL5Elk">
+        <img alt="YouTube Thumbnail">
+        <div class="song-info">
+          <span class="song-number">Kismat Ji Lakiron Main</span>
+          <h4 class="song-title">Ahmed Mughal</h4>
+        </div>
+        <a href="https://www.youtube.com/watch?v=bMmNDnL5Elk" target="_blank" class="btn-primary">Play</a>
+      </div>
+
+      <div class="song-card" data-video-id="pbgPwRqtgJA">
+        <img alt="YouTube Thumbnail">
+        <div class="song-info">
+          <span class="song-number">Haanre Aao Na Aa Assan Palyo Aasro</span>
+          <h4 class="song-title">Ahmed Mughal</h4>
+        </div>
+        <a href="https://www.youtube.com/watch?v=pbgPwRqtgJA" target="_blank" class="btn-primary">Play</a>
+      </div>
+
+      <div class="song-card" data-video-id="fgR1kBJRBTI">
+        <img alt="YouTube Thumbnail">
+        <div class="song-info">
+          <span class="song-number"> Pardaise Moti Aa</span>
+          <h4 class="song-title">Ahmed Mughal</h4>
+        </div>
+        <a href="https://www.youtube.com/watch?v=fgR1kBJRBTI" target="_blank" class="btn-primary">Play</a>
+      </div>
+
+      <div class="song-card" data-video-id="1VR8AlM7RoY">
+        <img alt="YouTube Thumbnail">
+        <div class="song-info">
+          <span class="song-number">Moula Tuhinji Hi Duniya Dukh Dadha Thi Day</span>
+          <h4 class="song-title">Ahmed Mughal</h4>
+        </div>
+        <a href="https://www.youtube.com/watch?v=1VR8AlM7RoY" target="_blank" class="btn-primary">Play</a>
+      </div>
+
+      <div class="song-card" data-video-id="0kic45OisUk">
+        <img alt="YouTube Thumbnail">
+        <div class="song-info">
+          <span class="song-number">Pare Na Wajh</span>
+          <h4 class="song-title">Manzoor Sakhirani</h4>
+        </div>
+        <a href="https://www.youtube.com/watch?v=0kic45OisUk" target="_blank" class="btn-primary">Play</a>
+      </div>
+
+      <div class="song-card" data-video-id="890ICMn55Ho">
+        <img alt="YouTube Thumbnail">
+        <div class="song-info">
+          <span class="song-number">Golhe O Golhe Tokhe Man Thako Ahyan</span>
+          <h4 class="song-title">Manzoor Sakhirani</h4>
+        </div>
+        <a href="https://www.youtube.com/watch?v=890ICMn55Ho" target="_blank" class="btn-primary">Play</a>
+      </div>
+
+      <div class="song-card" data-video-id="yLEtM_tLPmc">
+        <img alt="YouTube Thumbnail">
+        <div class="song-info">
+          <span class="song-number">Nawan Wasta Thai Wadhaya Khabroon Shahar Mein</span>
+          <h4 class="song-title">Manzoor Sakhirani</h4>
+        </div>
+        <a href="https://www.youtube.com/watch?v=yLEtM_tLPmc" target="_blank" class="btn-primary">Play</a>
+      </div>
+
+      <div class="song-card" data-video-id="9aEG8aJRd6k">
+        <img alt="YouTube Thumbnail">
+        <div class="song-info">
+          <span class="song-number">Yaad Wari Aa Aj Aayi Tunhinji</span>
+          <h4 class="song-title">Manzoor Sakhirani</h4>
+        </div>
+        <a href="https://www.youtube.com/watch?v=9aEG8aJRd6k" target="_blank" class="btn-primary">Play</a>
+      </div>
+
+      <div class="song-card" data-video-id="Xa3u8BoE0BM">
+        <img alt="YouTube Thumbnail">
+        <div class="song-info">
+          <span class="song-number">Dadho Dukhaein Tho</span>
+          <h4 class="song-title">Manzoor Sakhirani</h4>
+        </div>
+        <a href="https://www.youtube.com/watch?v=Xa3u8BoE0BM" target="_blank" class="btn-primary">Play</a>
+      </div>
+
+      <div class="song-card" data-video-id="I2oFZB7gd74">
+        <img alt="YouTube Thumbnail">
+        <div class="song-info">
+          <span class="song-number">Mitha Shahar Tunhinjo Chhadyoon Aj Wanjan Tho</span>
+          <h4 class="song-title">Manzoor Sakhirani</h4>
+        </div>
+        <a href="https://www.youtube.com/watch?v=I2oFZB7gd74" target="_blank" class="btn-primary">Play</a>
+      </div>
+
+      <div class="song-card" data-video-id="TBrQnWu5Z1k">
+        <img alt="YouTube Thumbnail">
+        <div class="song-info">
+          <span class="song-number">Moonkhe Wari De Motaye Se Muhabatoon</span>
+          <h4 class="song-title">Manzoor Sakhirani</h4>
+        </div>
+        <a href="https://www.youtube.com/watch?v=TBrQnWu5Z1k" target="_blank" class="btn-primary">Play</a>
+      </div>
+      <div class="song-card" data-video-id="hFzclyBrD4o">
+        <img alt="YouTube Thumbnail">
+        <div class="song-info">
+          <span class="song-number">Aeb Moon Main Un Ganiya</span>
+          <h4 class="song-title"> Mumtaz Lashari</h4>
+        </div>
+        <a href="https://www.youtube.com/watch?v=hFzclyBrD4o" target="_blank" class="btn-primary">Play</a>
+      </div>
+
+      <div class="song-card" data-video-id="wT5FQpeSzFc">
+        <img alt="YouTube Thumbnail">
+        <div class="song-info">
+          <span class="song-number">Muhabbat Dai Muhabbat Wath Muhabbat Me Mazo Ahe</span>
+          <h4 class="song-title"> Mumtaz Lashari</h4>
+        </div>
+        <a href="https://www.youtube.com/watch?v=wT5FQpeSzFc" target="_blank" class="btn-primary">Play</a>
+      </div>
+
+      <div class="song-card" data-video-id="pFI2pfx-jW8">
+        <img alt="YouTube Thumbnail">
+        <div class="song-info">
+          <span class="song-number">Kawar khe chad mehal eha thi muft na waqt wijaye</span>
+          <h4 class="song-title"> Mumtaz Lashari</h4>
+        </div>
+        <a href="https://www.youtube.com/watch?v=pFI2pfx-jW8" target="_blank" class="btn-primary">Play</a>
+      </div>
+
+      <div class="song-card" data-video-id="qQxJVyvT4p8">
+        <img alt="YouTube Thumbnail">
+        <div class="song-info">
+          <span class="song-number">Bas Tuhinji Khushi</span>
+          <h4 class="song-title">Fozia Soomro</h4>
+        </div>
+        <a href="https://www.youtube.com/watch?v=qQxJVyvT4p8" target="_blank" class="btn-primary">Play</a>
+      </div>
+
+      <div class="song-card" data-video-id="SEN9yUZL45A">
+        <img alt="YouTube Thumbnail">
+        <div class="song-info">
+          <span class="song-number">Asanji Dil Men Aohanje Lae</span>
+          <h4 class="song-title">Fozia Soomro</h4>
+        </div>
+        <a href="https://www.youtube.com/watch?v=SEN9yUZL45A" target="_blank" class="btn-primary">Play</a>
+      </div>
+
+      <div class="song-card" data-video-id="MpoCYcnVdL0">
+        <img alt="YouTube Thumbnail">
+        <div class="song-info">
+          <span class="song-number">Monhanja Pyar Pyara Ajan Yad Hondie</span>
+          <h4 class="song-title">Fozia Soomro</h4>
+        </div>
+        <a href="https://www.youtube.com/watch?v=MpoCYcnVdL0" target="_blank" class="btn-primary">Play</a>
+      </div>
+
+      <div class="song-card" data-video-id="CqyCwwAPqQQ">
+        <img alt="YouTube Thumbnail">
+        <div class="song-info">
+          <span class="song-number">JANWANI NA RAHNDI</span>
+          <h4 class="song-title">SADIQ FAQEER</h4>
+        </div>
+        <a href="https://www.youtube.com/watch?v=CqyCwwAPqQQ" target="_blank" class="btn-primary">Play</a>
+      </div>
+
+      <div class="song-card" data-video-id="M0pQbXoPaRg">
+        <img alt="YouTube Thumbnail">
+        <div class="song-info">
+          <span class="song-number">Peran khe rokje magar nainan khe cha kaje</span>
+          <h4 class="song-title">SADIQ FAQEER</h4>
+        </div>
+        <a href="https://www.youtube.com/watch?v=M0pQbXoPaRg" target="_blank" class="btn-primary">Play</a>
+      </div>
+
+      <div class="song-card" data-video-id="XW17puoqSdY">
+        <img alt="YouTube Thumbnail">
+        <div class="song-info">
+          <span class="song-number">Alae Cho Awahn Jon Akhyun Yad Aayon</span>
+          <h4 class="song-title">SADIQ FAQEER</h4>
+        </div>
+        <a href="https://www.youtube.com/watch?v=XW17puoqSdY" target="_blank" class="btn-primary">Play</a>
+      </div>
+
+      <div class="song-card" data-video-id="ESmWYksQiME">
+        <img alt="YouTube Thumbnail">
+        <div class="song-info">
+          <span class="song-number">Bichardna Zaroori Tha</span>
+          <h4 class="song-title">Munawar Molai</h4>
+        </div>
+        <a href="https://www.youtube.com/watch?v=ESmWYksQiME" target="_blank" class="btn-primary">Play</a>
+      </div>
+
+      <div class="song-card" data-video-id="tZ30cYI2-08">
+        <img alt="YouTube Thumbnail">
+        <div class="song-info">
+          <span class="song-number">De Saza Piyar Ji</span>
+          <h4 class="song-title">Munawar Molai</h4>
+        </div>
+        <a href="https://www.youtube.com/watch?v=tZ30cYI2-08" target="_blank" class="btn-primary">Play</a>
+      </div>
+
+      <div class="song-card" data-video-id="LA1WlVP4VP0">
+        <img alt="YouTube Thumbnail">
+        <div class="song-info">
+          <span class="song-number">Asan Tuhnja Dushman</span>
+          <h4 class="song-title">Munawar Molai</h4>
+        </div>
+        <a href="https://www.youtube.com/watch?v=LA1WlVP4VP0" target="_blank" class="btn-primary">Play</a>
+      </div>
+
+      <div class="song-card" data-video-id="sQ4nfA24cYQ">
+        <img alt="YouTube Thumbnail">
+        <div class="song-info">
+          <span class="song-number">Jadhen Man Na Rahyo Sain</span>
+          <h4 class="song-title">Munawar Molai</h4>
+        </div>
+        <a href="https://www.youtube.com/watch?v=sQ4nfA24cYQ" target="_blank" class="btn-primary">Play</a>
+      </div>
+
+      <div class="song-card" data-video-id="FcFcrKQy7nc">
+        <img alt="YouTube Thumbnail">
+        <div class="song-info">
+          <span class="song-number">Khilin Chho Tho Ghareeban Te</span>
+          <h4 class="song-title">MUREED ABBAS</h4>
+        </div>
+        <a href="https://www.youtube.com/watch?v=FcFcrKQy7nc" target="_blank" class="btn-primary">Play</a>
+      </div>
+
+      <div class="song-card" data-video-id="zh9E_yPFZEc">
+        <img alt="YouTube Thumbnail">
+        <div class="song-info">
+          <span class="song-number">Be Ka Bhi Saza De Moonkhe</span>
+          <h4 class="song-title">MUREED ABBAS</h4>
+        </div>
+        <a href="https://www.youtube.com/watch?v=zh9E_yPFZEc" target="_blank" class="btn-primary">Play</a>
+      </div>
+
+      <div class="song-card" data-video-id="aJGQqhLwl1I">
+        <img alt="YouTube Thumbnail">
+        <div class="song-info">
+          <span class="song-number">Aj Khan Munhinjo Toon Aa Yar</span>
+          <h4 class="song-title">MUREED ABBAS</h4>
+        </div>
+        <a href="https://www.youtube.com/watch?v=aJGQqhLwl1I" target="_blank" class="btn-primary">Play</a>
+      </div>
+
+      <div class="song-card" data-video-id="gIJKzvpsh_A">
+        <img alt="YouTube Thumbnail">
+        <div class="song-info">
+          <span class="song-number">Maan Roando Wanjan Tho</span>
+          <h4 class="song-title">MUREED ABBAS</h4>
+        </div>
+        <a href="https://www.youtube.com/watch?v=gIJKzvpsh_A" target="_blank" class="btn-primary">Play</a>
+      </div>
+      <div class="song-card" data-video-id="hutXyonJBI8">
+        <img alt="YouTube Thumbnail">
+        <div class="song-info">
+          <span class="song-number">Chhade Dinosin Asan Hane Roan</span>
+          <h4 class="song-title">MUREED ABBAS</h4>
+        </div>
+        <a href="https://www.youtube.com/watch?v=hutXyonJBI8" target="_blank" class="btn-primary">Play</a>
+      </div>
+
+      <div class="song-card" data-video-id="8amiRcAsypg">
+        <img alt="YouTube Thumbnail">
+        <div class="song-info">
+          <span class="song-number">Tunhinje Shahar Mein Ayus Qismat San</span>
+          <h4 class="song-title">MUREED ABBAS</h4>
+        </div>
+        <a href="https://www.youtube.com/watch?v=8amiRcAsypg" target="_blank" class="btn-primary">Play</a>
+      </div>
+
+      <div class="song-card" data-video-id="MmAdQb0yqk0">
+        <img alt="YouTube Thumbnail">
+        <div class="song-info">
+          <span class="song-number">Lash Munhinje Je Mathan Beehi</span>
+          <h4 class="song-title">MUREED ABBAS</h4>
+        </div>
+        <a href="https://www.youtube.com/watch?v=MmAdQb0yqk0" target="_blank" class="btn-primary">Play</a>
+      </div>
+
+      <div class="song-card" data-video-id="WBX9z3oOoAQ">
+        <img alt="YouTube Thumbnail">
+        <div class="song-info">
+          <span class="song-number">Farwa Je Andar Men Aas Hui</span>
+          <h4 class="song-title">MUREED ABBAS</h4>
+        </div>
+        <a href="https://www.youtube.com/watch?v=WBX9z3oOoAQ" target="_blank" class="btn-primary">Play</a>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="about">
+    <h3>About Sagar Sindhii</h3>
+    <p>Sagar Sindhii celebrates Sindhi music and culture. Listen to soulful voices and timeless tunes from the best
+      regional artists.</p>
+  </section>
+  <footer class="footer">
+    <div class="footer-container">
+
+      <div class="footer-about">
+        <h2 class="footer-title">Sagar Sindhii</h2>
+        <p class="footer-text">
+          Discover the soulful world of Sindhi music — from timeless classics to modern hits.
+          Let the melodies of Sindh touch your heart.
+        </p>
+
+        <div class="social-icons">
+          <a href="https://www.youtube.com/@manzoorsakhiranisongs" target="_blank" class="youtube" title="YouTube">
+            <i class="fa-brands fa-youtube"></i>
+          </a>
+          <a href="https://www.tiktok.com/@hanifabbasiofficial" target="_blank" class="tiktok" title="TikTok">
+            <i class="fa-brands fa-tiktok"></i>
+          </a>
+          <a href="https://www.facebook.com/finah549" target="_blank" class="facebook" title="Facebook">
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-contact">
+        <h3>Contact Us</h3>
+        <form id="contact-form">
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <textarea name="message" placeholder="Your Message" rows="3" required></textarea>
+          <button type="submit" id="submit-bt">Send Message</button>
+        </form>
+      </div>
+    </div>
+    <p class="footer-copy">© 2025 Sagar Sindhii | All Rights Reserved</p>
+    <div id="popup" class="popup">
+      <div class="popup-content">
+        <p id="popup-message">Sending...</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="music.js"></script>
+
+  <script>
+    const cards = document.querySelectorAll('.song-card');
+    cards.forEach(card => {
+      const videoId = card.getAttribute('data-video-id');
+      const img = card.querySelector('img');
+      if (videoId) {
+        img.src = `https://img.youtube.com/vi/${videoId}/hqdefault.jpg`;
+      }
+    });
+
+
+    const form = document.getElementById('contact-form');
+    const popup = document.getElementById('popup');
+    const popupMessage = document.getElementById('popup-message');
+
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+
+      popup.style.display = 'flex';
+      popupMessage.textContent = 'Sending...';
+
+      setTimeout(() => {
+        popupMessage.textContent = 'Message sent successfully!';
+        setTimeout(() => {
+          popup.style.display = 'none';
+          form.reset();
+        }, 3000);
+      }, 2000);
+    });
+  </script>
+</body>
+
+</html>
